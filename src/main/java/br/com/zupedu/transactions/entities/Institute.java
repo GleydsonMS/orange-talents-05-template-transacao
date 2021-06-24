@@ -29,4 +29,20 @@ public class Institute {
         this.city = city;
         this.address = address;
     }
+
+    public UUID getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getCity() {
+        return city;
+    }
+
+    public String getAddress() {
+        return address;
+    }
 }

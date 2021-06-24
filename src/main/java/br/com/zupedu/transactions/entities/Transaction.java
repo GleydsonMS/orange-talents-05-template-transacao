@@ -38,4 +38,24 @@ public class Transaction {
         this.card = card;
         this.effectedIn = LocalDateTime.parse(effectedIn);
     }
+
+    public String getId() {
+        return id;
+    }
+
+    public BigDecimal getAmount() {
+        return amount;
+    }
+
+    public Institute getInstitute() {
+        return institute;
+    }
+
+    public Card getCard() {
+        return card;
+    }
+
+    public LocalDateTime getEffectedIn() {
+        return effectedIn;
+    }
 }
